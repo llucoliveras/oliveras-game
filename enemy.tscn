@@ -27,6 +27,7 @@ corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
 [node name="Enemy" type="VBoxContainer" unique_id=1130308399]
+custom_minimum_size = Vector2(300, 0)
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -38,6 +39,7 @@ offset_right = 138.0
 offset_bottom = 153.5
 grow_horizontal = 2
 grow_vertical = 2
+alignment = 1
 script = ExtResource("1_4gyqm")
 
 [node name="NameLabel" type="Label" parent="." unique_id=1318638100]

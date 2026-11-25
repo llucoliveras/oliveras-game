@@ -1,8 +1,8 @@
 extends VBoxContainer
 
-const DEFAULT_ENEMY: Resource = preload("uid://cwn08wcu22ibf")
+const DEFAULT_ENEMY: Enemy_Data = preload("uid://cwn08wcu22ibf")
 const HEALTH_CHANGE_DURATION: float = 0.1 # How much it lasts from when the enemy is hurt until the healthbar updates to the new actual value
-const HURT_ON_HEALTH_CHANGE_DELAY: float = 0.05 # How much delay is between the green bar update to the red bar update
+const HURT_ON_HEALTH_CHANGE_DELAY: float = 0.25 # How much delay is between the green bar update to the red bar update
 
 @export var data: Enemy_Data
 
@@ -32,7 +32,7 @@ func _ready() -> void:
 		hurt_health_bar.value = data.max_health
 		
 func _input(event: InputEvent) -> void:
-	if event is InputEventMouseButton and event.is_pressed():
+	if event is InputEventMouseButton and event.is_pressed() and event.button_index == MOUSE_BUTTON_LEFT:
 		var new_health := maxf(current_health - float(randi() % 15), 0.0)
 		_on_health_changed(new_health)
 		
