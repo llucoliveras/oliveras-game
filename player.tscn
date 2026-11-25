@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://btfs4fc0eulcn"]
+
+[ext_resource type="Script" uid="uid://dtfmma47fi2rb" path="res://player.gd" id="1_onrkg"]
+[ext_resource type="Texture2D" uid="uid://dprt5x60pn5l3" path="res://Mark_Evans.webp" id="2_i3pqv"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ttxx8"]
+radius = 80.0
+height = 370.0
+
+[node name="Player" type="CharacterBody2D" unique_id=234606032]
+script = ExtResource("1_onrkg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2095015808]
+texture = ExtResource("2_i3pqv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1013196406]
+shape = SubResource("CapsuleShape2D_ttxx8")
