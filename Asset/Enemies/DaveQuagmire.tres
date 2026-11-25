@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy_Data" format=3 uid="uid://t1ytspj5uat8"]
+
+[ext_resource type="Script" uid="uid://cs4etrb5bwxo1" path="res://Scripts/enemy_data.gd" id="1_3ftdl"]
+[ext_resource type="Texture2D" uid="uid://b0s3wfjj8dc2n" path="res://Asset/Images/Dvalin_29.webp" id="1_mgdu3"]
+
+[resource]
+script = ExtResource("1_3ftdl")
+name = "Dave Quagmire"
+image = ExtResource("1_mgdu3")
+max_health = 20.0
+metadata/_custom_type_script = "uid://cs4etrb5bwxo1"

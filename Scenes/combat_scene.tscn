@@ -3,6 +3,9 @@
 [ext_resource type="Script" uid="uid://hokek3djxeqt" path="res://Scripts/combat_scene.gd" id="1_ct1co"]
 [ext_resource type="Texture2D" uid="uid://cgv0l1eurmsii" path="res://Asset/Images/generic_background.jpg" id="2_lo0hl"]
 [ext_resource type="PackedScene" uid="uid://cong3t8g8oxxo" path="res://Scenes/enemy.tscn" id="3_lo0hl"]
+[ext_resource type="Resource" uid="uid://t1ytspj5uat8" path="res://Asset/Enemies/DaveQuagmire.tres" id="4_vtehv"]
+[ext_resource type="Resource" uid="uid://komp8l7xxd31" path="res://Asset/Enemies/JanusGreenway.tres" id="5_loea4"]
+[ext_resource type="Resource" uid="uid://bjs6mvh8gvuii" path="res://Asset/Enemies/XavierFoster.tres" id="6_sv7pb"]
 
 [node name="CombatScene" type="Control" unique_id=1046603907]
 layout_mode = 3
@@ -41,12 +44,15 @@ alignment = 1
 
 [node name="Enemy" parent="EnemiesContainer" unique_id=1130308399 instance=ExtResource("3_lo0hl")]
 layout_mode = 2
+data = ExtResource("4_vtehv")
 
 [node name="Enemy2" parent="EnemiesContainer" unique_id=332615585 instance=ExtResource("3_lo0hl")]
 layout_mode = 2
+data = ExtResource("5_loea4")
 
 [node name="Enemy3" parent="EnemiesContainer" unique_id=1070488450 instance=ExtResource("3_lo0hl")]
 layout_mode = 2
+data = ExtResource("6_sv7pb")
 
 [node name="PlayerInformation" type="Panel" parent="." unique_id=1262213359]
 layout_mode = 1

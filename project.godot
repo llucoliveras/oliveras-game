@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="OliverasGame"
-run/main_scene="uid://ckwmolrmhdtqs"
+run/main_scene="uid://d2btv4ou56fjc"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://Asset/Images/icon.svg"
 
