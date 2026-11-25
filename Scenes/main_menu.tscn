@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://d2btv4ou56fjc"]
+
+[ext_resource type="Script" uid="uid://b733foc4narj2" path="res://Scripts/main_menu.gd" id="1_28flt"]
+
+[node name="MainMenu" type="CanvasLayer" unique_id=304378513]
+script = ExtResource("1_28flt")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1036741066]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GameTitle" type="Label" parent="VBoxContainer" unique_id=17364700]
+layout_mode = 2
+text = "OliverasGame"
+
+[node name="PlayButton" type="Button" parent="VBoxContainer" unique_id=1692108460]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Play"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer" unique_id=725961319]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Exit"
