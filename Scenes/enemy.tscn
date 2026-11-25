@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cong3t8g8oxxo"]
 
-[ext_resource type="Script" uid="uid://djistolnic5jo" path="res://enemy.gd" id="1_4gyqm"]
-[ext_resource type="Texture2D" uid="uid://dprt5x60pn5l3" path="res://Mark_Evans.webp" id="1_7k104"]
+[ext_resource type="Script" uid="uid://djistolnic5jo" path="res://Scripts/enemy.gd" id="1_4gyqm"]
+[ext_resource type="Texture2D" uid="uid://dprt5x60pn5l3" path="res://Asset/Images/Mark_Evans.webp" id="1_7k104"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a4a1r"]
 bg_color = Color(0.08235294, 0.08235294, 0.08235294, 0.49803922)

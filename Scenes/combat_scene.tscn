@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://cyavfcyjg206r"]
 
-[ext_resource type="Script" uid="uid://hokek3djxeqt" path="res://combat_scene.gd" id="1_ct1co"]
-[ext_resource type="Texture2D" uid="uid://cgv0l1eurmsii" path="res://generic_background.jpg" id="2_lo0hl"]
-[ext_resource type="PackedScene" uid="uid://cong3t8g8oxxo" path="res://enemy.tscn" id="3_lo0hl"]
+[ext_resource type="Script" uid="uid://hokek3djxeqt" path="res://Scripts/combat_scene.gd" id="1_ct1co"]
+[ext_resource type="Texture2D" uid="uid://cgv0l1eurmsii" path="res://Asset/Images/generic_background.jpg" id="2_lo0hl"]
+[ext_resource type="PackedScene" uid="uid://cong3t8g8oxxo" path="res://Scenes/enemy.tscn" id="3_lo0hl"]
 
 [node name="CombatScene" type="Control" unique_id=1046603907]
 layout_mode = 3

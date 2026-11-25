@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Enemy_Data" format=3 uid="uid://cwn08wcu22ibf"]
 
-[ext_resource type="Script" uid="uid://cs4etrb5bwxo1" path="res://enemy_data.gd" id="1_akdug"]
-[ext_resource type="Texture2D" uid="uid://dprt5x60pn5l3" path="res://Mark_Evans.webp" id="1_v3n6r"]
+[ext_resource type="Script" uid="uid://cs4etrb5bwxo1" path="res://Scripts/enemy_data.gd" id="1_akdug"]
+[ext_resource type="Texture2D" uid="uid://dprt5x60pn5l3" path="res://Asset/Images/Mark_Evans.webp" id="1_v3n6r"]
 
 [resource]
 script = ExtResource("1_akdug")
